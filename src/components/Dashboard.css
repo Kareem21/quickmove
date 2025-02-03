@@ -1,0 +1,68 @@
+/* src/styles/Dashboard.css */
+.dashboard-container {
+    text-align: center;
+    padding: 40px;
+}
+
+.dashboard-title {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.dashboard-subtitle {
+    font-size: 1.2em;
+    color: gray;
+}
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.search-input {
+    width: 50%;
+    padding: 10px;
+    font-size: 1em;
+}
+
+.search-button {
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    border: none;
+    margin-left: 10px;
+}
+
+.suggestions {
+    margin-top: 20px;
+}
+
+.suggestion-button {
+    background-color: #444;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.about-section {
+    margin-top: 40px;
+}
+
+.about-title {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: red;
+}
+
+.about-text {
+    font-size: 1.1em;
+    color: gray;
+}
+
+.about-list {
+    text-align: left;
+    display: inline-block;
+}
