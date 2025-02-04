@@ -43,7 +43,7 @@ function Card({ post, label }) {
             <p>Posted: {timestamp}</p>
             <p>Comments: {post.comment_count}</p>
             <p>Sentiment Score: {post.sentiment_score !== undefined ? post.sentiment_score : 'N/A'}</p>
-            <p>Total Upvotes: {Gpost.total_upvotes || 'N/A'}</p>
+            <p>Total Upvotes: {post.total_upvotes || 'N/A'}</p>
             <p>Total Downvotes: {post.total_downvotes || 'N/A'}</p>
             {post.upvote_ratio && (
                 <p>Upvote Ratio: {(post.upvote_ratio * 100).toFixed(1)}%</p>
